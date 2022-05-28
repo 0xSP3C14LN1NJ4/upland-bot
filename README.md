@@ -1,5 +1,5 @@
 # Upland Bot
-An Upland bot sending an SMS when a cheap property is for sale at a low price
+An Upland bot sending an SMS when a cheap property is available for sale at a low price
 
 **NOTE: To use this bot, you must have a Twilio account as it is used to send SMS**
 
