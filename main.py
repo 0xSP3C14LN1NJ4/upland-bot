@@ -53,7 +53,7 @@ def send_sms(properties):
     to_number = os.environ['TWILIO_TO_NUMBER']
     client = Client(account_sid, auth_token)
 
-    text = "New property for sale at a low price!\n"
+    text = "New property available for sale at a low price!\n"
 
     for property in properties:
         text += "Price: " + property["price"] + "\n"
